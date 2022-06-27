@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import DefaultFatArrow from "./1.components/1.function/DeafultFatArrow";
+import Scott from "./1.components/1.function/Greet";
+import { GreetNamed as Named } from "./1.components/1.function/GreetNamed";
+import { NamedFatArrow } from "./1.components/1.function/NamedFatArrow";
+import {GreetOne, GreetTwo} from "./1.components/1.function/MultiGreet"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Scott />
+      <Named />
+      <DefaultFatArrow />
+      <NamedFatArrow />
+      <GreetOne />
+      <GreetTwo />
     </div>
   );
 }
