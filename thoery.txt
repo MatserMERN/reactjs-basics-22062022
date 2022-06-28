@@ -168,7 +168,7 @@ LifeCycle Methods
 
 Unmounting
 -----------
-When a compoenent is being removed from the DOM 
+When a component is being removed from the DOM 
 
 LifeCycle Method
 ------------------
