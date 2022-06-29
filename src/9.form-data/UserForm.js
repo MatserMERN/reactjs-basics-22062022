@@ -56,7 +56,7 @@ export class UserForm extends Component {
   }
   render() {
     return (
-      <React.Fragment >
+      <div className="container">
         <h1>User Form</h1>
         <form>
           <div>
@@ -120,7 +120,7 @@ export class UserForm extends Component {
             >Get Form Data</button>
           </div>
         </form>
-      </React.Fragment>
+      </div>
     )
   }
 }

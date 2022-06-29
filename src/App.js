@@ -34,13 +34,27 @@ import LifecycleA from "./10.life-cycle-methods/LifecycleA";
 import PostAPI from "./11.api-calls/PostAPI";
 import CommentsAPI from "./11.api-calls/CommentsAPI";
 import UserAPI from "./11.api-calls/UserAPI";
+import StudentSQLAPI from "./11.api-calls/StudentSQLAPI";
+import StudentMongoAPI from "./11.api-calls/StudentMongoAPI";
+import Routing from "./12.routing/Routing";
+import ClassCounter from "./13.hooks/ClassCounter";
+import HookCounter from "./13.hooks/HookCounter";
+import HookWithObject from "./13.hooks/HookWithObject";
+import UseEffectHook from "./13.hooks/UseEffectHook";
 
 
 function App() {
   
   return (
-    <div className="container">
-      <UserAPI />
+    <div>
+      <UseEffectHook />
+      {/* <HookWithObject /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <Routing /> */}
+      {/* <StudentMongoAPI /> */}
+      {/* <StudentSQLAPI /> */}
+      {/* <UserAPI /> */}
       {/* <CommentsAPI /> */}
       {/* <PostAPI /> */}
       {/* <LifecycleA /> */}
